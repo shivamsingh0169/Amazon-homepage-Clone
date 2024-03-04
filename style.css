@@ -1,0 +1,259 @@
+*{
+    margin: 0px;
+    border: border-box;
+    font-family: arial;
+}
+.navbar{
+    height:60px;
+    background-color: #0f1111;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.nav-logo{
+    height: 50px;
+    width: 113px;
+}
+.logo{
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 113px;
+   
+}
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+/* BOX ! */
+
+.add-one{
+    color: #cccccc;
+    font-size: 0.8rem;
+    margin-left: 15px;
+}
+.add-two{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.add-icon{
+    display:flex;
+    align-items: center;
+    font-weight: 700;
+}
+/*BOX 3*/
+/* .border1{
+    border: 1.5px solid transparent;
+} */
+
+.border1:hover{
+    border: 2px solid #febd68;
+    border-radius: 5px;
+}
+
+.search-bar{
+    display:flex;
+   
+   
+   
+}
+.search-icon{
+    background-color: #febd68;
+    color:black;
+    font-size: 1.2rem;
+    width:40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;}
+.inp{
+    width:700px;
+    height: 35px;
+    border: none;
+    font-size: 1.2rem;
+
+}
+.sel{
+    background-color:aquamarine ;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border:none;
+}
+/* acc*/
+
+.hello{
+    font-size: 0.8rem;
+
+}
+.acc{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.fa-caret-down{
+    font-size: 0.5rem;
+    color:lightgray;
+}
+/* Return*/
+.return{
+    font-size: 0.8rem;
+
+}
+.order{
+    font-size:1rem ;
+    font-weight: 700;
+}
+.cart{
+    display: flex;
+}
+.fa-cart-shopping{
+    font-size: 2rem;}
+.cart-text{
+    display:flex;
+    align-items:last baseline ;
+    font-weight: 700;
+}
+/*panel*/
+.panel{
+    display:flex;
+    background-color: #222f3d;
+    height: 40px;
+    color: white;
+    align-items: center;
+    
+    /* justify-content: space-evenly; */
+}
+.fa-bars{
+    margin-left: 20px;
+}
+.panel-ops{
+    display:flex;
+    width:70%;
+    font-size: 0.9rem;
+}
+.panel-ops p{
+    margin: 10px;
+}
+.panel-deal{
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-left: 175px;
+}
+
+/**Hero**/
+.hero-section{
+    background-image: url(hero_image.jpg);
+    height:380px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-text{
+    height: 40px;
+    background-color:#f5f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin-bottom: 30px;
+}
+.redirect{
+    color:#007185;
+}
+
+/** shop section**/
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box{
+    height: 400px;
+    width:22%;
+    background-color: white;
+    margin-bottom: 20px;
+}
+.box-img{
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+    margin-left:50px;
+    margin-top: 30px;
+}
+.box-head{
+    margin-left: 50px;
+    transform: translateY(13px);
+}
+.box-p{
+    margin-left: 20px;
+    transform: translateY(20px);
+    color: #007185;
+}
+
+/**footer**/
+footer{
+    margin-top: 20px;
+}
+.footer-panel1{
+    height:50px;
+    background-color: #37475a;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 0.85rem;
+}
+
+.footer-panel2{
+    background-color: #222f3d;
+    color:white;
+    height:300px;
+    display:flex;
+    justify-content: space-evenly;
+}
+.footer-panel2 a{
+    display:block;
+    font-size: 0.9rem;
+    color:#dddddd;
+    margin-top: 8px;
+}
+ul{
+    margin-top: 20px;
+}
+.footer-panel3{
+    height:70px;
+    background-color: #222f3d;
+    border-top: 1px solid #37475a ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-panel4
+{
+    height: 80px;
+    background-color:  #0f1111;
+    color:#dddddd;
+    font-size: 0.8rem;
+    
+}
+
+.page{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}
+.copyright{
+    height:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
